@@ -1,10 +1,11 @@
 import React from "react";
-import { AllCoursesHeader } from "../components";
+import { AllCoursesHeader, CoursesFilter } from "../components";
 
 const AllCourses = () => {
   return (
     <>
       <AllCoursesHeader />
+      <CoursesFilter />
     </>
   );
 };
