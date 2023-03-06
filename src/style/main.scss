@@ -103,7 +103,7 @@ body {
 
     &.active {
       padding: 10px 0;
-      box-shadow: 0 0 10px silver;
+      background-color: #78d64a;
     }
   }
 
@@ -280,21 +280,33 @@ body {
     padding: 96px 0 163px;
 
     h1 {
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 50px;
-        letter-spacing: -0.35px;
-        color: #0085CA;
-        margin-bottom: 20px;
-        font-family: "Next-Art-Semibold";
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 50px;
+      letter-spacing: -0.35px;
+      color: #0085ca;
+      margin-bottom: 20px;
+      font-family: "Next-Art-Semibold";
+      position: relative;
+      padding-left: 17px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 5%;
+        width: 7px;
+        left: 0;
+        height: 90%;
+        background-color: #0085ca;
+      }
     }
 
     h2 {
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-        letter-spacing: -0.35px;
-        color: #FFFFFF;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      letter-spacing: -0.35px;
+      color: #ffffff;
     }
   }
 }

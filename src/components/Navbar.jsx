@@ -34,7 +34,7 @@ const Navbar = () => {
                 </span>
               </div>
               <div>
-                <Link className="regular" to="/courses">
+                <Link className="regular" to="/all-courses">
                   КУРСЫ
                 </Link>
               </div>
