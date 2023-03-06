@@ -273,4 +273,28 @@ body {
       right: 50px;
     }
   }
+
+  .AllCoursesHeader {
+    background-image: url("../assets/images/allCourses.png");
+    background-size: cover;
+    padding: 96px 0 163px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 50px;
+        letter-spacing: -0.35px;
+        color: #0085CA;
+        margin-bottom: 20px;
+        font-family: "Next-Art-Semibold";
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: -0.35px;
+        color: #FFFFFF;
+    }
+  }
 }

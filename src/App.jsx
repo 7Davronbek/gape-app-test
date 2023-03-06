@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Main } from "./pages";
+import { AllCourses, Main } from "./pages";
 import { Navbar } from "./components";
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/all-courses" element={<AllCourses />} />
       </Routes>
       <div className="vh-100"></div>
     </>
