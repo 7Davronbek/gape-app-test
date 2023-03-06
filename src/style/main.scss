@@ -247,23 +247,30 @@ body {
   .Email {
     background: #0085ca;
     padding: 60px 0 75px;
+    margin: 130px 0 100px;
 
     h1 {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 41px;
-        letter-spacing: -0.35px;
-        color: #FFFFFF;
-        font-family: "Next-Art-Semibold";
-        margin-bottom: 31px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 41px;
+      letter-spacing: -0.35px;
+      color: #ffffff;
+      font-family: "Next-Art-Semibold";
+      margin-bottom: 31px;
     }
 
     p {
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-        letter-spacing: -0.35px;
-        color: rgba(255, 255, 255, 0.9);
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      letter-spacing: -0.35px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .img {
+      position: absolute;
+      top: -120%;
+      right: 50px;
     }
   }
 }
