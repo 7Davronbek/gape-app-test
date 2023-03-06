@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Next-Art-Semibold";
+  src: url("../assets/fonts/semibold.otf") format("truetype");
+}
+
+.semibold {
+  font-family: "Next-Art-Semibold";
+}
+
+@font-face {
+  font-family: "Next-Art-Regular";
+  src: url("../assets/fonts/regular.otf") format("truetype");
+}
+
+.regular {
+  font-family: "Next-Art-Regular";
+}
+
+@font-face {
+  font-family: "Next-Art-Light";
+  src: url("../assets/fonts/light.otf") format("truetype");
+}
+
+.light {
+  font-family: "Next-Art-Light";
+}
+
+body {
+  color: #222;
+  font-family: "Next-Art-Light";
+
+  ul,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .card {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+
+    .card-body {
+      background-color: transparent;
+      border: 0;
+      padding: 0;
+    }
+  }
+
+  .cursor {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 0;
+  }
+
+  img {
+    user-select: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    outline: none !important;
+
+    &:hover {
+      text-decoration: none !important;
+      color: #ccc;
+    }
+  }
+
+  .Navbar {
+    padding: 15px 0;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    transition: all 0.6s ease-in-out;
+
+    a {
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 29px;
+      letter-spacing: -0.35px;
+      color: rgba(255, 255, 255, 0.9);
+      margin-right: 25px;
+      text-transform: uppercase;
+
+      &:first-child {
+        margin-left: 25px;
+      }
+    }
+
+    &.active {
+      padding: 10px 0;
+      box-shadow: 0 0 10px silver;
+    }
+  }
+
+  .navbarLine {
+    padding-top: 93px;
+  }
+
+  .Courses {
+    padding: 60px 0;
+
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 54px;
+      letter-spacing: -0.35px;
+      margin-bottom: 58px;
+      font-family: "Next-Art-Semibold";
+      text-align: center;
+    }
+
+    .cards {
+      padding: 20px 20px 54px;
+      background: #ffffff;
+      border: 2px solid #797979;
+      transition: all 0.4s ease-in-out;
+
+      h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.35px;
+        color: #0085ca;
+        margin-bottom: 18px;
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 50px;
+        letter-spacing: -0.35px;
+        color: #0085ca;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.35px;
+        color: #0085ca;
+      }
+
+      h5 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.35px;
+        color: #414141;
+      }
+
+      .arrow {
+        transition: all 0.4s ease-in-out;
+      }
+
+      &:hover {
+        transform: translateY(-4px);
+        cursor: pointer;
+
+        .arrow {
+            transform: translateX(8px);
+        }
+      }
+    }
+
+    .col-12 {
+        margin-top: 27px;
+        text-align: center;
+    }
+
+    .btn {
+        background: #0085CA;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: -0.35px;
+        color: #FFFFFF;
+        padding: 20px;
+    }
+  }
+
+  .Couches {
+    padding: 70px 0 40px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -0.35px;
+        font-family: "Next-Art-Semibold";
+        margin-bottom: 58px;
+        text-align: center;
+    }
+
+    .imgWrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.35px;
+        margin: 39px 0;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: -0.35px;
+        color: #414141;
+    }
+
+    h4 {
+        background: #0085CA;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 29px;
+        letter-spacing: -0.35px;
+        color: #FFFFFF;
+        padding: 29px 21px;
+        font-family: "Next-Art-Semibold";
+    }
+
+    .paddingLeft {
+        padding-left: 30px;
+    }
+  }
+}
