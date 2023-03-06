@@ -172,24 +172,24 @@ body {
         cursor: pointer;
 
         .arrow {
-            transform: translateX(8px);
+          transform: translateX(8px);
         }
       }
     }
 
     .col-12 {
-        margin-top: 27px;
-        text-align: center;
+      margin-top: 27px;
+      text-align: center;
     }
 
     .btn {
-        background: #0085CA;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 25px;
-        letter-spacing: -0.35px;
-        color: #FFFFFF;
-        padding: 20px;
+      background: #0085ca;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 25px;
+      letter-spacing: -0.35px;
+      color: #ffffff;
+      padding: 20px;
     }
   }
 
@@ -197,50 +197,73 @@ body {
     padding: 70px 0 40px;
 
     h1 {
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 54px;
-        letter-spacing: -0.35px;
-        font-family: "Next-Art-Semibold";
-        margin-bottom: 58px;
-        text-align: center;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 54px;
+      letter-spacing: -0.35px;
+      font-family: "Next-Art-Semibold";
+      margin-bottom: 58px;
+      text-align: center;
     }
 
     .imgWrap {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
     h2 {
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 36px;
-        letter-spacing: -0.35px;
-        margin: 39px 0;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: -0.35px;
+      margin: 39px 0;
     }
 
     h3 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      letter-spacing: -0.35px;
+      color: #414141;
+    }
+
+    h4 {
+      background: #0085ca;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 29px;
+      letter-spacing: -0.35px;
+      color: #ffffff;
+      padding: 29px 21px;
+      font-family: "Next-Art-Semibold";
+    }
+
+    .paddingLeft {
+      padding-left: 30px;
+    }
+  }
+
+  .Email {
+    background: #0085ca;
+    padding: 60px 0 75px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41px;
+        letter-spacing: -0.35px;
+        color: #FFFFFF;
+        font-family: "Next-Art-Semibold";
+        margin-bottom: 31px;
+    }
+
+    p {
         font-weight: 400;
         font-size: 24px;
         line-height: 34px;
         letter-spacing: -0.35px;
-        color: #414141;
-    }
-
-    h4 {
-        background: #0085CA;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 29px;
-        letter-spacing: -0.35px;
-        color: #FFFFFF;
-        padding: 29px 21px;
-        font-family: "Next-Art-Semibold";
-    }
-
-    .paddingLeft {
-        padding-left: 30px;
+        color: rgba(255, 255, 255, 0.9);
     }
   }
 }
