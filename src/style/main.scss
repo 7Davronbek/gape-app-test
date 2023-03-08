@@ -719,6 +719,13 @@ body {
       transform: translateY(-20px);
       opacity: 0;
 
+      .close {
+
+        img {
+            cursor: pointer;
+        }
+      }
+
       .btn {
         font-weight: 700;
         font-size: 30px;

@@ -1,17 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 
 const FeedBackCard = ({ modal, setModal }) => {
+  const [count, setCount] = useState(1);
+  const decrement = () => {
+    if (count < 2) {
+      setCount(1);
+    } else {
+      setCount((prev) => prev - 1);
+    }
+  };
   return (
-    <div className={`FeedBackCard ${modal ? "active" : ""}`}>
+    <div
+      onClick={(e) => setModal(false)}
+      className={`FeedBackCard ${modal ? "active" : ""}`}
+    >
       <div className="container">
         <div className="row">
           <form className="col-12">
-            <div className="cards">
+            <div onClick={(e) => e.stopPropagation()} className="cards">
               <div className="d-flex align-items-center justify-content-between mb-5">
                 <h1>Worem ipsum dolor sit </h1>
                 <div className="close">
                   <img
-                    onClick={() => setModal(false)}
+                    onClick={() => {
+                      setModal(false);
+                    }}
                     src="/assets/icons/close.svg"
                     alt=""
                   />
@@ -72,11 +85,19 @@ const FeedBackCard = ({ modal, setModal }) => {
                   <div className="d-flex align-items-center justify-content-between wrap">
                     <h3>Кол-во</h3>
                     <div className="d-flex align-items-center">
-                      <button type="button" className="btn">
+                      <button
+                        onClick={decrement}
+                        type="button"
+                        className="btn"
+                      >
                         -
                       </button>
-                      <h6>1</h6>
-                      <button type="button" className="btn">
+                      <h6>{count}</h6>
+                      <button
+                        onClick={() => setCount((prev) => prev + 1)}
+                        type="button"
+                        className="btn"
+                      >
                         +
                       </button>
                     </div>
