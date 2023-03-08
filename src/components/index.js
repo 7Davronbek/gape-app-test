@@ -6,3 +6,4 @@ export { default as Couches } from "./Couches";
 export { default as Email } from "./Email";
 export { default as AllCoursesHeader } from "./AllCoursesHeader";
 export { default as CoursesFilter } from "./CoursesFilter";
+export { default as Gallery } from "./Gallery";

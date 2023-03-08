@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+
   const [navbar, setNavbar] = useState(false);
 
   const changeNavbar = () => {
@@ -34,15 +36,34 @@ const Navbar = () => {
                 </span>
               </div>
               <div>
-                <Link className="regular" to="/all-courses">
+                <Link
+                  className={`regular ${
+                    location.pathname === "all-courses" ? "active" : ""
+                  }`}
+                  to="/all-courses"
+                >
                   КУРСЫ
                 </Link>
               </div>
               <div>
-                <Link to="/about-us">о нас</Link>
+                <Link
+                  className={` ${
+                    location.pathname === "about-us" ? "active" : ""
+                  }`}
+                  to="/about-us"
+                >
+                  о нас
+                </Link>
               </div>
               <div>
-                <Link to="/about-us">КОНТАКТЫ</Link>
+                <Link
+                  className={` ${
+                    location.pathname === "about-us" ? "active" : ""
+                  }`}
+                  to="/about-us"
+                >
+                  КОНТАКТЫ
+                </Link>
               </div>
               <div>
                 <span>

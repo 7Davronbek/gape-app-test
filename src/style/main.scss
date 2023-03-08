@@ -99,6 +99,10 @@ body {
       &:first-child {
         margin-left: 25px;
       }
+
+      &.active {
+        color: #0085CA;
+      }
     }
 
     &.active {
