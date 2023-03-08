@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { SingleHeader } from "../components";
 
 const SingleCourse = () => {
   return (
     <>
-      Lorem ipsum dolor sit amet.
+      <SingleHeader />
     </>
-  )
-}
+  );
+};
 
-export default SingleCourse
+export default SingleCourse;
