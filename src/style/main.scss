@@ -25,6 +25,10 @@
   font-family: "Next-Art-Light";
 }
 
+#root {
+  overflow-x: hidden;
+}
+
 body {
   color: #222;
   font-family: "Next-Art-Light";
@@ -563,17 +567,18 @@ body {
 
   .SingleHeader {
     padding: 93px 0 183px;
+    overflow: hidden;
 
     .row {
-        position: relative;
+      position: relative;
 
-        .img {
-            position: absolute;
-            top: -93px;
-            right: -60px;
-            width: 700px;
-            z-index: -1;
-        }
+      .img {
+        position: absolute;
+        top: -93px;
+        right: -60px;
+        width: 700px;
+        z-index: -1;
+      }
     }
 
     .cards {
@@ -628,6 +633,44 @@ body {
         padding: 20px 30px;
         border-radius: 0;
         margin-top: 24px;
+      }
+    }
+  }
+
+  .SingleCards {
+    padding: 58px 0;
+
+    h1 {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 50px;
+      letter-spacing: -0.35px;
+      margin-bottom: 58px;
+      color: #414141;
+      font-family: "Next-Art-Semibold";
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        h2 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            letter-spacing: -0.35px;
+            color: #FFFFFF;
+        }
+
+      &.blue {
+        background: #0085ca;
+      }
+      &.green {
+        background: #78d64a;
+      }
+      &.red {
+        background: #d22630;
       }
     }
   }

@@ -1,10 +1,11 @@
 import React from "react";
-import { SingleHeader } from "../components";
+import { SingleCards, SingleHeader } from "../components";
 
 const SingleCourse = () => {
   return (
     <>
       <SingleHeader />
+      <SingleCards />
     </>
   );
 };
