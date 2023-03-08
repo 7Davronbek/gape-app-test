@@ -83,7 +83,7 @@ const Courses = () => {
           </Link>
 
           <div className="col-12">
-            <button className="btn">СМОТРЕТЬ ВСЕ</button>
+            <Link to='/all-courses' className="btn">СМОТРЕТЬ ВСЕ</Link>
           </div>
         </div>
       </div>

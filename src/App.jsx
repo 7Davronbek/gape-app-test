@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { AllCourses, Main } from "./pages";
-import { Footer, Navbar } from "./components";
+import { Footer, Navbar, ScrollToTop } from "./components";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <Route path="/all-courses" element={<AllCourses />} />
       </Routes>
       <Footer />
+      <ScrollToTop />
     </>
   );
 };

@@ -8,3 +8,4 @@ export { default as AllCoursesHeader } from "./AllCoursesHeader";
 export { default as CoursesFilter } from "./CoursesFilter";
 export { default as Gallery } from "./Gallery";
 export { default as Footer } from "./Footer";
+export { default as ScrollToTop } from "./ScrollToTop";
