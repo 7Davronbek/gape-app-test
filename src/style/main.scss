@@ -101,7 +101,7 @@ body {
       }
 
       &.active {
-        color: #0085CA;
+        color: #0085ca;
       }
     }
 
@@ -311,6 +311,54 @@ body {
       line-height: 34px;
       letter-spacing: -0.35px;
       color: #ffffff;
+    }
+  }
+
+  .Gallery {
+    padding: 56px 0;
+
+    .topCol {
+      position: relative;
+
+      h2 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 29px;
+        letter-spacing: -0.35px;
+        font-family: "Next-Art-Semibold";
+        color: #ffffff;
+        background: #0085ca;
+        position: absolute;
+        top: 0;
+        right: -35%;
+        transform: translateX(-50%);
+        width: 300px;
+        padding: 58px 27px;
+      }
+
+      h3 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 29px;
+        letter-spacing: -0.35px;
+        color: #ffffff;
+        font-family: "Next-Art-Semibold";
+        padding: 29px 21px;
+        background: #D22630;
+        position: absolute;
+        top: -95px;
+        width: 370px;                                                                            
+      }
+    }
+
+    h1 {
+      font-family: "Next-Art-Semibold";
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 54px;
+      letter-spacing: -0.35px;
+      color: #414141;
+      margin-bottom: 56px;
     }
   }
 }
