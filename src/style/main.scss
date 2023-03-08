@@ -455,4 +455,109 @@ body {
         }
     }
   }
+
+  .CoursesFilter {
+    padding: 66px 0 70px;
+
+    .cards {
+      padding: 20px 20px 54px;
+      background: #ffffff;
+      border: 2px solid #797979;
+      transition: all 0.4s ease-in-out;
+
+      h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -0.35px;
+        color: #0085ca;
+        margin-bottom: 18px;
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 50px;
+        letter-spacing: -0.35px;
+        color: #0085ca;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.35px;
+        color: #0085ca;
+      }
+
+      h5 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.35px;
+        color: #414141;
+      }
+
+      .arrow {
+        transition: all 0.4s ease-in-out;
+      }
+
+      &:hover {
+        transform: translateY(-4px);
+        cursor: pointer;
+
+        .arrow {
+          transform: translateX(8px);
+        }
+      }
+    }
+
+    .myRow {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -0.35px;
+        color: #414141;
+        font-family: "Next-Art-Semibold";
+        margin-bottom: 58px;
+    }
+
+    .btnWrap {
+        display: flex;
+        align-items: center;
+
+        .btn {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 29px;
+            letter-spacing: -0.35px;
+            color: #414141;
+            margin-right: 60px;
+            position: relative;
+            border: none;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -10px;
+                left: 5%;
+                width: 90%;
+                height: 3px;
+                background-color: transparent;
+                transition: all .2s ease-in-out;
+            }
+            
+            &.active {
+
+                &::after {
+                    background-color: #414141;
+                }
+            }
+        }
+    }
+  }
 }

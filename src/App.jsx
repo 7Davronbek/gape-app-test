@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { AllCourses, Main } from "./pages";
+import { AllCourses, Main, SingleCourse } from "./pages";
 import { Footer, Navbar, ScrollToTop } from "./components";
 
 const App = () => {
@@ -10,6 +10,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/all-courses" element={<AllCourses />} />
+        <Route path="/single-course" element={<SingleCourse />} />
       </Routes>
       <Footer />
       <ScrollToTop />

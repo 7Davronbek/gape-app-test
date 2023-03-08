@@ -10,7 +10,7 @@ const Courses = () => {
             <h1>курсы</h1>
           </div>
 
-          <Link to='/' className="col-lg-4">
+          <Link to='/single-course' className="col-lg-4">
             <div className="cards">
               <img
                 src="/assets/images/course1.png"
@@ -34,7 +34,7 @@ const Courses = () => {
             </div>
           </Link>
           
-          <Link to='/' className="col-lg-4">
+          <Link to='/single-course' className="col-lg-4">
             <div className="cards">
               <img
                 src="/assets/images/course2.png"
@@ -58,7 +58,7 @@ const Courses = () => {
             </div>
           </Link>
           
-          <Link to='/' className="col-lg-4">
+          <Link to='/single-course' className="col-lg-4">
             <div className="cards">
               <img
                 src="/assets/images/course3.png"
