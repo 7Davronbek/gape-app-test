@@ -38,7 +38,7 @@ const Navbar = () => {
               <div>
                 <Link
                   className={`regular ${
-                    location.pathname === "all-courses" ? "active" : ""
+                    location.pathname === "/all-courses" ? "active" : ""
                   }`}
                   to="/all-courses"
                 >
@@ -48,7 +48,7 @@ const Navbar = () => {
               <div>
                 <Link
                   className={` ${
-                    location.pathname === "about-us" ? "active" : ""
+                    location.pathname === "/about-us" ? "active" : ""
                   }`}
                   to="/about-us"
                 >
@@ -58,7 +58,7 @@ const Navbar = () => {
               <div>
                 <Link
                   className={` ${
-                    location.pathname === "about-us" ? "active" : ""
+                    location.pathname === "/about-us" ? "active" : ""
                   }`}
                   to="/about-us"
                 >
