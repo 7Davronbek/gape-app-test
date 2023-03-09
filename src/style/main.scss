@@ -132,6 +132,12 @@ body {
       margin-bottom: 58px;
       font-family: "Next-Art-Semibold";
       text-align: center;
+
+      @media (max-width: 767px) {
+        font-size: 32px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+      }
     }
 
     .cards {
@@ -147,6 +153,11 @@ body {
         letter-spacing: -0.35px;
         color: #0085ca;
         margin-bottom: 18px;
+
+        @media (max-width: 767px) {
+          font-size: 22px;
+          line-height: 27px;
+        }
       }
 
       h3 {
@@ -155,6 +166,11 @@ body {
         line-height: 50px;
         letter-spacing: -0.35px;
         color: #0085ca;
+
+        @media (max-width: 767px) {
+          font-size: 34px;
+          line-height: 35px;
+        }
       }
 
       h4 {
@@ -171,10 +187,21 @@ body {
         line-height: 23px;
         letter-spacing: -0.35px;
         color: #414141;
+
+        @media (max-width: 767px) {
+          font-size: 16px;
+        }
       }
 
       .arrow {
         transition: all 0.4s ease-in-out;
+        margin-left: 10px;
+
+        img {
+          @media (max-width: 767px) {
+            width: 40px;
+          }
+        }
       }
 
       &:hover {
@@ -185,11 +212,19 @@ body {
           transform: translateX(8px);
         }
       }
+
+      @media (max-width: 767px) {
+        padding: 10px;
+      }
     }
 
     .col-12 {
       margin-top: 27px;
       text-align: center;
+
+      @media (max-width: 767px) {
+        margin-top: 10px;
+      }
     }
 
     .btn {
@@ -200,6 +235,15 @@ body {
       letter-spacing: -0.35px;
       color: #ffffff;
       padding: 20px;
+
+      @media (max-width: 767px) {
+        font-size: 18px;
+        padding: 15px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      padding: 40px 0;
     }
   }
 
@@ -214,12 +258,31 @@ body {
       font-family: "Next-Art-Semibold";
       margin-bottom: 58px;
       text-align: center;
+
+      @media (max-width: 767px) {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
     }
 
     .imgWrap {
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      img {
+        width: 100%;
+
+        @media(max-width: 992px) {
+            width: initial
+        }
+      }
+
+      @media (max-width: 992px) {
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
     }
 
     h2 {
@@ -228,6 +291,11 @@ body {
       line-height: 36px;
       letter-spacing: -0.35px;
       margin: 39px 0;
+
+      @media (max-width: 767px) {
+        font-size: 28px;
+        margin: 20px 0;
+      }
     }
 
     h3 {
@@ -236,6 +304,16 @@ body {
       line-height: 34px;
       letter-spacing: -0.35px;
       color: #414141;
+
+      @media(max-width: 992px) {
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 767px) {
+        padding: 0;
+        font-size: 18px;
+        line-height: 26px;
+      }
     }
 
     h4 {
@@ -247,10 +325,20 @@ body {
       color: #ffffff;
       padding: 29px 21px;
       font-family: "Next-Art-Semibold";
+
+      @media(max-width: 992px) {
+        padding: 15px 20px !important;
+        font-size: 20px;
+        line-height: 23px;
+    }
     }
 
     .paddingLeft {
       padding-left: 30px;
+
+      @media(max-width: 992px) {
+        padding-left: 0;
+      }
     }
   }
 
@@ -689,7 +777,7 @@ body {
     width: 100%;
     height: 100vh;
     z-index: 99999;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     opacity: 0;
     visibility: hidden;
 
@@ -715,14 +803,13 @@ body {
       background-color: #fff;
       padding: 60px 60px;
       margin: 20px 0;
-      transition: all .5s ease-in-out;
+      transition: all 0.5s ease-in-out;
       transform: translateY(-20px);
       opacity: 0;
 
       .close {
-
         img {
-            cursor: pointer;
+          cursor: pointer;
         }
       }
 
@@ -817,13 +904,13 @@ body {
     }
 
     &.active {
-        visibility: visible;
-        opacity: 1;
+      visibility: visible;
+      opacity: 1;
 
-        .cards {
-            opacity: 1;
-            transform: translateY(0);
-        }
+      .cards {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   }
 }

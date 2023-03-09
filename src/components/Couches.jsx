@@ -39,7 +39,7 @@ const Couches = () => {
               inceptos himenaeos. Curabitur tempus{" "}
             </h3>
           </div>
-          <div className="col-lg-4 ms-4">
+          <div className="col-lg-4 ms-ls-4">
             <h4 className="paddingLeft">
               “Jorem ipsum dolor sit amet, consectetur adipiscing elit.”
             </h4>

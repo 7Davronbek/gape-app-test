@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Courses = () => {
   return (
@@ -10,14 +10,14 @@ const Courses = () => {
             <h1>курсы</h1>
           </div>
 
-          <Link to='/single-course' className="col-lg-4">
+          <Link to="/single-course" className="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div className="cards">
               <img
                 src="/assets/images/course1.png"
                 alt="Course image"
                 className="w-100"
               />
-              <div className="d-flex mt-2">
+              <div className="d-flex mt-2 justify-content-between">
                 <h2>Lorem, ipsum dolor.</h2>
                 <div>
                   <h3>06</h3>
@@ -33,15 +33,15 @@ const Courses = () => {
               </div>
             </div>
           </Link>
-          
-          <Link to='/single-course' className="col-lg-4">
+
+          <Link to="/single-course" className="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div className="cards">
               <img
                 src="/assets/images/course2.png"
                 alt="Course image"
                 className="w-100"
               />
-              <div className="d-flex mt-2">
+              <div className="d-flex mt-2 justify-content-between">
                 <h2>Lorem, ipsum dolor.</h2>
                 <div>
                   <h3>06</h3>
@@ -57,15 +57,15 @@ const Courses = () => {
               </div>
             </div>
           </Link>
-          
-          <Link to='/single-course' className="col-lg-4">
+
+          <Link to="/single-course" className="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div className="cards">
               <img
                 src="/assets/images/course3.png"
                 alt="Course image"
                 className="w-100"
               />
-              <div className="d-flex mt-2">
+              <div className="d-flex mt-2 justify-content-between">
                 <h2>Lorem, ipsum dolor.</h2>
                 <div>
                   <h3>06</h3>
@@ -83,7 +83,9 @@ const Courses = () => {
           </Link>
 
           <div className="col-12">
-            <Link to='/all-courses' className="btn">СМОТРЕТЬ ВСЕ</Link>
+            <Link to="/all-courses" className="btn">
+              СМОТРЕТЬ ВСЕ
+            </Link>
           </div>
         </div>
       </div>

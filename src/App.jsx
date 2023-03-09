@@ -6,7 +6,7 @@ import { Footer, Navbar, ScrollToTop } from "./components";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/all-courses" element={<AllCourses />} />
