@@ -273,8 +273,8 @@ body {
       img {
         width: 100%;
 
-        @media(max-width: 992px) {
-            width: initial
+        @media (max-width: 992px) {
+          width: initial;
         }
       }
 
@@ -305,7 +305,7 @@ body {
       letter-spacing: -0.35px;
       color: #414141;
 
-      @media(max-width: 992px) {
+      @media (max-width: 992px) {
         margin-bottom: 20px;
       }
 
@@ -326,17 +326,17 @@ body {
       padding: 29px 21px;
       font-family: "Next-Art-Semibold";
 
-      @media(max-width: 992px) {
+      @media (max-width: 992px) {
         padding: 15px 20px !important;
         font-size: 20px;
         line-height: 23px;
-    }
+      }
     }
 
     .paddingLeft {
       padding-left: 30px;
 
-      @media(max-width: 992px) {
+      @media (max-width: 992px) {
         padding-left: 0;
       }
     }
@@ -910,6 +910,135 @@ body {
       .cards {
         opacity: 1;
         transform: translateY(0);
+      }
+    }
+  }
+
+  .Calendar {
+    padding: 61px 0 75px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 50px;
+      letter-spacing: -0.35px;
+      margin-bottom: 48px;
+      color: #414141;
+      font-family: "Next-Art-Semibold";
+      text-align: center;
+    }
+
+    .filter {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      h6 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.35px;
+        margin-left: 19px;
+        color: #414141;
+        font-family: "Next-Art-Semibold";
+      }
+    }
+
+    .calendar {
+      display: flex;
+      align-items: center;
+
+      h5 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.35px;
+        color: #000000;
+        margin: 0 22px;
+      }
+
+      span {
+        cursor: pointer;
+      }
+    }
+
+    .calendarWrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 45px;
+
+      .wrap {
+        position: relative;
+
+        &.red {
+          &::after {
+            background: #d22630;
+          }
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 5%;
+          left: -30px;
+          background: #0085ca;
+          width: 7px;
+          height: 90%;
+        }
+      }
+
+      .day {
+        background: #0085ca;
+        padding: 10px;
+        text-align: center;
+
+        &.red {
+          background-color: #d22630;
+        }
+      }
+
+      .number {
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 73px;
+        letter-spacing: -0.35px;
+        color: #ffffff;
+      }
+
+      h2 {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: -0.35px;
+        color: #ffffff;
+      }
+
+      h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.35px;
+        color: #414141;
+        margin-bottom: 12px;
+        font-family: "Next-Art-Semibold";
+      }
+
+      h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.35px;
+        color: #414141;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.35px;
+        color: #414141;
       }
     }
   }
