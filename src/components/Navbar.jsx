@@ -66,9 +66,13 @@ const Navbar = () => {
                 </Link>
               </div>
               <div>
-                <span>
-                  <img src="/assets/icons/calendary.svg" alt="Search" />
-                </span>
+                <Link to="/calendar">
+                  {location.pathname === "/calendar" ? (
+                    <img src="/assets/icons/calendar.svg" alt="Search" />
+                  ) : (
+                    <img src="/assets/icons/calendary.svg" alt="Search" />
+                  )}
+                </Link>
               </div>
             </div>
           </div>
