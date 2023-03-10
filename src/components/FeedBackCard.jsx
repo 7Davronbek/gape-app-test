@@ -18,7 +18,7 @@ const FeedBackCard = ({ modal, setModal }) => {
         <div className="row">
           <form className="col-12">
             <div onClick={(e) => e.stopPropagation()} className="cards">
-              <div className="d-flex align-items-center justify-content-between mb-5">
+              <div className="d-flex align-lg-items-center justify-content-between mb-5">
                 <h1>Worem ipsum dolor sit </h1>
                 <div className="close">
                   <img
@@ -85,11 +85,7 @@ const FeedBackCard = ({ modal, setModal }) => {
                   <div className="d-flex align-items-center justify-content-between wrap">
                     <h3>Кол-во</h3>
                     <div className="d-flex align-items-center">
-                      <button
-                        onClick={decrement}
-                        type="button"
-                        className="btn"
-                      >
+                      <button onClick={decrement} type="button" className="btn">
                         -
                       </button>
                       <h6>{count}</h6>

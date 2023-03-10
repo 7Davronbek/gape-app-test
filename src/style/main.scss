@@ -763,6 +763,11 @@ body {
         color: #414141;
         font-family: "Next-Art-Semibold";
         margin-bottom: 24px;
+
+        @media (max-width: 767px) {
+          font-size: 30px;
+          margin-bottom: 15px;
+        }
       }
 
       h2 {
@@ -773,6 +778,11 @@ body {
         letter-spacing: -0.35px;
         color: #ffffff;
         margin-bottom: 24px;
+
+        @media (max-width: 767px) {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
       }
 
       h3 {
@@ -782,6 +792,11 @@ body {
         line-height: 34px;
         letter-spacing: -0.35px;
         color: #ffffff;
+
+        @media (max-width: 767px) {
+          font-size: 18px;
+          line-height: 32px;
+        }
       }
 
       h4 {
@@ -791,6 +806,10 @@ body {
         letter-spacing: -0.35px;
         color: #ffffff;
         font-family: "Next-Art-Semibold";
+
+        @media (max-width: 767px) {
+          font-size: 26px;
+        }
       }
 
       .btn {
@@ -803,7 +822,30 @@ body {
         padding: 20px 30px;
         border-radius: 0;
         margin-top: 24px;
+
+        @media (max-width: 767px) {
+          font-size: 24px;
+          padding: 18px 28px;
+        }
       }
+
+      @media (max-width: 767px) {
+        padding: 35px 30px;
+      }
+
+      @media (max-width: 767px) {
+        padding: 25px 15px;
+      }
+    }
+
+    .col-lg-7 {
+      @media (max-width: 992px) {
+        margin-top: 150px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      padding: 80px 0 150px;
     }
   }
 
@@ -818,6 +860,11 @@ body {
       margin-bottom: 58px;
       color: #414141;
       font-family: "Next-Art-Semibold";
+
+      @media (max-width: 992px) {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
     }
 
     .cards {
@@ -831,6 +878,12 @@ body {
         line-height: 34px;
         letter-spacing: -0.35px;
         color: #ffffff;
+
+        @media (max-width: 767px) {
+          font-size: 18px;
+          line-height: 30px;
+          text-align: center;
+        }
       }
 
       &.blue {
@@ -842,6 +895,16 @@ body {
       &.red {
         background: #d22630;
       }
+
+      @media (max-width: 992px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      padding: 25px 0;
     }
   }
 
@@ -904,6 +967,11 @@ body {
         font-family: "Next-Art-Semibold";
         border: 1px solid #797979;
         padding: 10px 24px;
+
+        @media(max-width: 767px) {
+            padding: 0 10px;
+            font-size: 25px;
+        }
       }
 
       h6 {
@@ -914,6 +982,11 @@ body {
         letter-spacing: -0.35px;
         color: #797979;
         margin: 0 37px;
+
+        @media(max-width: 767px) {
+            font-size: 30px;
+            margin: 0 20px;
+        }
       }
 
       h1 {
@@ -922,6 +995,11 @@ body {
         line-height: 50px;
         letter-spacing: -0.35px;
         font-family: "Next-Art-Semibold";
+
+        @media (max-width: 767px) {
+          font-size: 25px;
+          line-height: 31px;
+        }
       }
 
       .wrap {
@@ -934,6 +1012,10 @@ body {
         line-height: 32px;
         letter-spacing: -0.35px;
         color: #797979;
+
+        @media(max-width: 767px) {
+            font-size: 22px;
+        }
       }
 
       label {
@@ -945,6 +1027,10 @@ body {
 
         span {
           color: #d22630;
+        }
+
+        @media(max-width: 767px) {
+            font-size: 14px;
         }
       }
 
@@ -962,6 +1048,11 @@ body {
         align-items: center;
         justify-content: center;
         margin: auto;
+
+        @media(max-width: 767px) {
+            font-size: 22px;
+            padding: 15px 20px;
+        }
       }
 
       .form-control {
@@ -981,7 +1072,19 @@ body {
           border-bottom: 1px solid #797979;
           padding: 10px 5px 10px;
           margin-bottom: 70px;
+
+          @media(max-width: 992px) {
+            margin-bottom: 30px;
+          }
         }
+
+        @media (max-width: 767px) {
+          font-size: 16px;
+        }
+      }
+
+      @media (max-width: 992px) {
+        padding: 35px 15px;
       }
     }
 
