@@ -5,6 +5,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const [navbar, setNavbar] = useState(false);
+  const [burger, setBurger] = useState(false);
 
   const changeNavbar = () => {
     if (window.scrollY >= 30) {
@@ -18,9 +19,9 @@ const Navbar = () => {
     <>
       <div className={`Navbar ${navbar ? "active" : ""}`}>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-2">
-              <Link to="/">
+          <div className="row w-100 position-relative">
+            <div className="col-lg-2 col-5">
+              <Link className="logo" to="/">
                 <img
                   src="/assets/images/logo.png"
                   alt="Logo"
@@ -29,14 +30,27 @@ const Navbar = () => {
               </Link>
             </div>
 
-            <div className="col-lg-6 ms-auto d-flex align-items-center justify-content-end">
-              <div>
+            <div className="burger">
+              <img onClick={() => setBurger(true)} src="/assets/icons/burger.svg" alt="" />
+            </div>
+
+            <div
+              
+              className={`col-6 ms-auto d-flex align-items-center justify-content-end phoneWrap ${
+                burger && "burger"
+              }`}
+            >
+              <div onClick={() => setBurger(false)} className="close">
+                <img src="/assets/icons/closeWhite.svg" alt="" />
+              </div>
+              <div onClick={() => setBurger(false)}>
                 <span>
                   <img src="/assets/icons/search.svg" alt="Search" />
                 </span>
               </div>
               <div>
                 <Link
+                  onClick={() => setBurger(false)}
                   className={`regular ${
                     location.pathname === "/all-courses" ? "active" : ""
                   }`}
@@ -47,6 +61,7 @@ const Navbar = () => {
               </div>
               <div>
                 <Link
+                  onClick={() => setBurger(false)}
                   className={` ${
                     location.pathname === "/about-us" ? "active" : ""
                   }`}
@@ -57,6 +72,7 @@ const Navbar = () => {
               </div>
               <div>
                 <Link
+                  onClick={() => setBurger(false)}
                   className={` ${
                     location.pathname === "/about-us" ? "active" : ""
                   }`}
@@ -66,7 +82,7 @@ const Navbar = () => {
                 </Link>
               </div>
               <div>
-                <Link to="/calendar">
+                <Link onClick={() => setBurger(false)} to="/calendar">
                   {location.pathname === "/calendar" ? (
                     <img src="/assets/icons/calendar.svg" alt="Search" />
                   ) : (
