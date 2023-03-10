@@ -10,7 +10,7 @@ const Calendar = () => {
             <div className="col-lg-11 mx-auto">
               <h1>Календарь</h1>
 
-              <div className="d-flex align-items-center justify-content-between ">
+              <div className="d-flex align-items-center justify-content-between filterWrap">
                 <div
                   onClick={(e) => {
                     setFilter(true), e.stopPropagation();

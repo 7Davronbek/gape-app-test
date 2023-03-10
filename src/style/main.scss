@@ -968,9 +968,9 @@ body {
         border: 1px solid #797979;
         padding: 10px 24px;
 
-        @media(max-width: 767px) {
-            padding: 0 10px;
-            font-size: 25px;
+        @media (max-width: 767px) {
+          padding: 0 10px;
+          font-size: 25px;
         }
       }
 
@@ -983,9 +983,9 @@ body {
         color: #797979;
         margin: 0 37px;
 
-        @media(max-width: 767px) {
-            font-size: 30px;
-            margin: 0 20px;
+        @media (max-width: 767px) {
+          font-size: 30px;
+          margin: 0 20px;
         }
       }
 
@@ -1013,8 +1013,8 @@ body {
         letter-spacing: -0.35px;
         color: #797979;
 
-        @media(max-width: 767px) {
-            font-size: 22px;
+        @media (max-width: 767px) {
+          font-size: 22px;
         }
       }
 
@@ -1029,8 +1029,8 @@ body {
           color: #d22630;
         }
 
-        @media(max-width: 767px) {
-            font-size: 14px;
+        @media (max-width: 767px) {
+          font-size: 14px;
         }
       }
 
@@ -1049,9 +1049,9 @@ body {
         justify-content: center;
         margin: auto;
 
-        @media(max-width: 767px) {
-            font-size: 22px;
-            padding: 15px 20px;
+        @media (max-width: 767px) {
+          font-size: 22px;
+          padding: 15px 20px;
         }
       }
 
@@ -1073,7 +1073,7 @@ body {
           padding: 10px 5px 10px;
           margin-bottom: 70px;
 
-          @media(max-width: 992px) {
+          @media (max-width: 992px) {
             margin-bottom: 30px;
           }
         }
@@ -1102,6 +1102,12 @@ body {
   .Calendar {
     padding: 61px 0 75px;
 
+    .filterWrap {
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+    }
+
     h1 {
       font-weight: 700;
       font-size: 44px;
@@ -1111,6 +1117,10 @@ body {
       color: #414141;
       font-family: "Next-Art-Semibold";
       text-align: center;
+
+      @media (max-width: 767px) {
+        font-size: 22px;
+      }
     }
 
     .filter {
@@ -1126,6 +1136,14 @@ body {
         margin-left: 19px;
         color: #414141;
         font-family: "Next-Art-Semibold";
+
+        @media (max-width: 767px) {
+          font-size: 20px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        margin-bottom: 20px;
       }
     }
 
@@ -1140,6 +1158,10 @@ body {
         letter-spacing: -0.35px;
         color: #000000;
         margin: 0 22px;
+
+        @media (max-width: 767px) {
+          font-size: 20px;
+        }
       }
 
       span {
@@ -1170,6 +1192,10 @@ body {
           background: #0085ca;
           width: 7px;
           height: 90%;
+        }
+
+        @media (max-width: 992px) {
+          margin-top: 30px;
         }
       }
 
@@ -1224,6 +1250,10 @@ body {
         line-height: 20px;
         letter-spacing: -0.35px;
         color: #414141;
+      }
+
+      @media (max-width: 992px) {
+        flex-direction: column;
       }
     }
   }
@@ -1311,6 +1341,14 @@ body {
         color: #414141;
         margin-bottom: 32px;
       }
+
+      @media (max-width: 992px) {
+        padding: 100px 25px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      width: 90%;
     }
 
     &.active {
