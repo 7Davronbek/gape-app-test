@@ -63,7 +63,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -71,7 +71,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -86,7 +86,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -94,7 +94,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -109,7 +109,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -117,7 +117,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -132,7 +132,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -140,7 +140,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -155,7 +155,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -163,7 +163,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -178,7 +178,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -186,7 +186,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -205,7 +205,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -213,7 +213,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -228,7 +228,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -236,7 +236,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -251,7 +251,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -259,7 +259,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -274,7 +274,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -282,7 +282,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -297,7 +297,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -305,7 +305,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -320,7 +320,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -328,7 +328,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -347,7 +347,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -355,7 +355,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -370,7 +370,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -378,7 +378,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -393,7 +393,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -401,7 +401,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -416,7 +416,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -424,7 +424,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -439,7 +439,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -447,7 +447,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -462,7 +462,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -470,7 +470,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -489,7 +489,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -497,7 +497,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -512,7 +512,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -520,7 +520,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -535,7 +535,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -543,7 +543,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -558,7 +558,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -566,7 +566,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -581,7 +581,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -589,7 +589,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
@@ -604,7 +604,7 @@ const CoursesFilter = () => {
                     alt="Course image"
                     className="w-100"
                   />
-                  <div className="d-flex mt-2">
+                  <div className="d-flex mt-2 justify-content-between">
                     <h2>Lorem, ipsum dolor.</h2>
                     <div>
                       <h3>06</h3>
@@ -612,7 +612,7 @@ const CoursesFilter = () => {
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center justify-content-between mt-lg-0 mt-2">
                     <h5>Morem ipsum dolor sit amet, consectetur</h5>
                     <div className="arrow">
                       <img src="/assets/icons/arrow.svg" alt="" />
