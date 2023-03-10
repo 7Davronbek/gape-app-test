@@ -193,10 +193,96 @@ body {
   }
 
   .navbarLine {
-    padding-top: 104px;
+    padding-top: 103px;
+    background-color: #000;
 
     @media (max-width: 767px) {
       padding-top: 80px;
+    }
+  }
+
+  .Header {
+    background-image: url("../assets/images/headerBg.png");
+    // padding: 125px 0 190px;
+    background-size: cover;
+
+    .swiper-wrapper {
+        padding: 125px 0 190px;
+    }
+
+    .swiper-pagination  {
+        bottom: 90px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 90px;
+        height: 10px;
+        border-radius: 0;
+        background-color: #fff;
+
+        &.swiper-pagination-bullet-active {
+            background-color: #fff;
+        }
+    }
+
+    .col-lg-6, .col-lg-5 {
+        overflow: hidden;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 79px;
+        letter-spacing: -0.35px;
+        color: #FFFFFF;
+        font-family: "Next-Art-Semibold";
+        margin-bottom: 39px;
+
+        b {
+            color: #D22630;
+        }
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.35px;
+        margin-bottom: 41px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .btn {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -0.35px;
+        padding: 20px 30px;
+        background-color: #D22630;
+        color: #FFFFFF !important;
+    }
+
+    .wrap {
+        margin-bottom: 50px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 27px;
+            letter-spacing: -0.35px;
+            color: #FFFFFF;
+            margin-left: 30px;
+        }
+    }
+
+    h5 {
+        margin-top: 60px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: -0.35px;
+        font-family: "Next-Art-Semibold";
+        color: #FFFFFF;
     }
   }
 

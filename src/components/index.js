@@ -12,3 +12,4 @@ export { default as ScrollToTop } from "./ScrollToTop";
 export { default as SingleHeader } from "./SingleHeader";
 export { default as SingleCards } from "./SingleCards";
 export { default as FeedBackCard } from "./FeedBackCard";
+export { default as PageNotFound } from "./PageNotFound";
