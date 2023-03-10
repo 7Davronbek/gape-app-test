@@ -1042,4 +1042,109 @@ body {
       }
     }
   }
+
+  .Filter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #78d64a;
+    width: 40%;
+    height: 100vh;
+    z-index: 999;
+    overflow-y: auto;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+
+    .close {
+      text-align: end;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    .cards {
+      padding: 150px 20px 50px 150px;
+
+      .btn {
+        padding: 19px 24px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: -0.35px;
+        color: rgba(255, 255, 255, 0.9);
+        background: #0085ca;
+        border-radius: 10px;
+      }
+
+      .inputWrap {
+        display: flex;
+        align-items: center;
+        margin-bottom: 32px;
+        cursor: pointer;
+
+        input {
+          margin-bottom: 0;
+        }
+
+        label {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 27px;
+          letter-spacing: -0.35px;
+          color: rgba(255, 255, 255, 0.9);
+          margin-left: 30px;
+          user-select: none;
+          cursor: pointer;
+        }
+      }
+
+      .filter {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 32px;
+
+        h6 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 27px;
+          letter-spacing: -0.35px;
+          margin-left: 19px;
+          color: #414141;
+          font-family: "Next-Art-Semibold";
+        }
+      }
+
+      input {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.35px;
+        color: #414141;
+        margin-bottom: 32px;
+      }
+    }
+
+    &.active {
+      opacity: 1;
+      transform: translateX(0);
+      visibility: visible;
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #e5e5e5;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #2c5b15;
+      border-radius: 5px;
+    }
+  }
 }
