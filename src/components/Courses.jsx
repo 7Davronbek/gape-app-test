@@ -25,7 +25,7 @@ const Courses = () => {
                 </div>
               </div>
 
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center justify-content-between">
                 <h5>Morem ipsum dolor sit amet, consectetur</h5>
                 <div className="arrow">
                   <img src="/assets/icons/arrow.svg" alt="" />
@@ -49,7 +49,7 @@ const Courses = () => {
                 </div>
               </div>
 
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center justify-content-between">
                 <h5>Morem ipsum dolor sit amet, consectetur</h5>
                 <div className="arrow">
                   <img src="/assets/icons/arrow.svg" alt="" />
@@ -73,7 +73,7 @@ const Courses = () => {
                 </div>
               </div>
 
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center justify-content-between">
                 <h5>Morem ipsum dolor sit amet, consectetur</h5>
                 <div className="arrow">
                   <img src="/assets/icons/arrow.svg" alt="" />
