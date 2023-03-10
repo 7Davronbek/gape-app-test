@@ -13,7 +13,7 @@ const AboutUs = () => {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 2500,
+              delay: 11112500,
               disableOnInteraction: false,
             }}
             pagination={{
@@ -45,7 +45,7 @@ const AboutUs = () => {
                   <img src="/assets/images/singleHeader.png" alt="" />
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide>  
             <SwiperSlide>
               <div className="col-lg-7">
                 <h1>о нас</h1>
