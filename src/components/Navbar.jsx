@@ -31,11 +31,14 @@ const Navbar = () => {
             </div>
 
             <div className="burger">
-              <img onClick={() => setBurger(true)} src="/assets/icons/burger.svg" alt="" />
+              <img
+                onClick={() => setBurger(true)}
+                src="/assets/icons/burger.svg"
+                alt=""
+              />
             </div>
 
             <div
-              
               className={`col-6 ms-auto d-flex align-items-center justify-content-end phoneWrap ${
                 burger && "burger"
               }`}
@@ -49,15 +52,66 @@ const Navbar = () => {
                 </span>
               </div>
               <div>
-                <Link
-                  onClick={() => setBurger(false)}
+                <a
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                   className={`regular ${
                     location.pathname === "/all-courses" ? "active" : ""
                   }`}
                   to="/all-courses"
                 >
                   КУРСЫ
-                </Link>
+                </a>
+                <ul id="accordionExample" className="dropdown-menu">
+                  <li>
+                    <Link
+                      to="/single-course"
+                      onClick={() => setBurger(false)}
+                      className="dropdown-item accordion"
+                    >
+                      Rorem{" "}
+                      <i className="ms-3">
+                        <img src="/assets/icons/right.svg" alt="" />
+                      </i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/single-course"
+                      onClick={() => setBurger(false)}
+                      className="dropdown-item accordion"
+                    >
+                      Rorem{" "}
+                      <i className="ms-3">
+                        <img src="/assets/icons/right.svg" alt="" />
+                      </i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/single-course"
+                      onClick={() => setBurger(false)}
+                      className="dropdown-item accordion"
+                    >
+                      Rorem{" "}
+                      <i className="ms-3">
+                        <img src="/assets/icons/right.svg" alt="" />
+                      </i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/single-course"
+                      onClick={() => setBurger(false)}
+                      className="dropdown-item accordion"
+                    >
+                      Rorem{" "}
+                      <i className="ms-3">
+                        <img src="/assets/icons/right.svg" alt="" />
+                      </i>
+                    </Link>
+                  </li>
+                </ul>
               </div>
               <div>
                 <Link
